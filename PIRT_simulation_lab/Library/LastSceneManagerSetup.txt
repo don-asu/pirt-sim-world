@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/PIRTSimulationWorld.unity
+- path: Assets/Kat's Stuff/Museum_Level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

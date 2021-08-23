@@ -1,37 +1,47 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro N; OS build 19041.1110; Version 2004; 64bit' Language: 'en' Physical Memory: 32679 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 15776 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+C:\Users\dgbal\Desktop\Unity Editors\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Git Projects/pirt-sim-world/PIRT_simulation_lab
+C:/Users/dgbal/Documents/GitHub/pirt-sim-world/PIRT_simulation_lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 64816
 Successfully changed project path to: D:/Git Projects/pirt-sim-world/PIRT_simulation_lab
 D:/Git Projects/pirt-sim-world/PIRT_simulation_lab
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 32.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+54545
+Successfully changed project path to: C:/Users/dgbal/Documents/GitHub/pirt-sim-world/PIRT_simulation_lab
+C:/Users/dgbal/Documents/GitHub/pirt-sim-world/PIRT_simulation_lab
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.88 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.74 ms.
+>>>>>>> Stashed changes
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Git Projects/pirt-sim-world/PIRT_simulation_lab/Assets
+[Subsystems] Discovering subsystems at path C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dgbal/Documents/GitHub/pirt-sim-world/PIRT_simulation_lab/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7111
+    VRAM:     8044 MB
+    Driver:   27.21.14.6213
 Initialize mono
+<<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
@@ -45,10 +55,26 @@ Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 32.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+Mono path[0] = 'C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Users/dgbal/Desktop/Unity Editors/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001810 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.61 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+>>>>>>> Stashed changes
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  1.584 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -58,17 +84,43 @@ Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 33.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+>>>>>>> Stashed changes
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  0.733 seconds
+=======
+- Completed reload, in  0.812 seconds
+>>>>>>> Stashed changes
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2420 Unused Serialized files (Serialized files now loaded: 0)
@@ -160,20 +212,294 @@ Received Import Request.
   artifactKey: Guid(f70ea947a998a60438b5456fc2b19260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/NewScript.cs using Guid(f70ea947a998a60438b5456fc2b19260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d2fd45f448b4a1d0d6230cf5cf768f') in 0.001017 seconds
   Import took 0.003687 seconds .
+=======
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.7 MB.
+System memory in use after: 140.9 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 3.480500 ms (FindLiveObjects: 0.360700 ms CreateObjectMapping: 0.165300 ms MarkObjects: 1.896400 ms  DeleteObjects: 1.056800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/XR
+  artifactKey: Guid(709a70414d47ba14eab4877afd33ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(709a70414d47ba14eab4877afd33ae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd67a545348c80284e791aba59c3257') in 0.009637 seconds
+  Import took 0.014175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(120dc77635dd53d42bdc1717890e68d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(120dc77635dd53d42bdc1717890e68d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [XR] Error loading subsystem: Display (1) (header mismatch?)
+ -> (artifact id: 'a804d90fc176fe4c8f2407af441f8e90') in 0.037365 seconds
+  Import took 0.041495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.487920 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Continuous Move.preset
+  artifactKey: Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Continuous Move.preset using Guid(91f9da00cfdac5d49955df2d2d820b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e33fb6b49f40c3920848e738a2d1c9') in 0.016164 seconds
+  Import took 0.021301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b55756d2d1c1ea17437b3963399b82') in 0.013606 seconds
+  Import took 0.018015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Snap Turn.preset
+  artifactKey: Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Snap Turn.preset using Guid(18697d253d848974aa7052cba872c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705d942dfe99692a29f25ed1fd19437b') in 0.010056 seconds
+  Import took 0.014891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ecadfca29f10090d2ec59fddd72e09') in 0.012528 seconds
+  Import took 0.017552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512493d2db61cd9fdaac4249f2ef4450') in 0.010344 seconds
+  Import took 0.015478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2376d32769a8e0b1972393675e3c3d89') in 0.008567 seconds
+  Import took 0.012985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011723 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2376d32769a8e0b1972393675e3c3d89') in 0.004029 seconds
+  Import took 0.008547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.548633 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions
+  artifactKey: Guid(7f6bb4f8505f8ed4ba31cf4feee29f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.5/Default Input Actions using Guid(7f6bb4f8505f8ed4ba31cf4feee29f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388df7b8d877aec938d2878f7bce83e3') in 0.007107 seconds
+  Import took 0.011851 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+Registered in 0.003881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.8 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3519.
+Total: 3.951500 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.256400 ms  DeleteObjects: 1.203300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 4.956500 ms (FindLiveObjects: 0.450400 ms CreateObjectMapping: 0.191100 ms MarkObjects: 2.880400 ms  DeleteObjects: 1.433400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 144.3 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 4.167300 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.571200 ms  DeleteObjects: 1.229100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1735.146990 seconds.
+  path: Assets/Chris' Lab Space Folder/Clean Settings UI
+  artifactKey: Guid(457b221eb00bb434cafd56b7b4c65f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Clean Settings UI using Guid(457b221eb00bb434cafd56b7b4c65f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29169edc2654c090d72c4f1d7068da8') in 0.011782 seconds
+  Import took 0.016872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414814 seconds.
+  path: Assets/Chris' Lab Space Folder/Materials
+  artifactKey: Guid(2e7b83e48f06d4581b6d02990968fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Materials using Guid(2e7b83e48f06d4581b6d02990968fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacae12f3debd3fee167a2099accda5e') in 0.006028 seconds
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.488708 seconds.
+  path: Assets/Chris' Lab Space Folder/Models
+  artifactKey: Guid(83684f74527bb4b07acb2e78adeb8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Models using Guid(83684f74527bb4b07acb2e78adeb8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1db66453a03b65d571335811fa09c92') in 0.006962 seconds
+  Import took 0.011986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.348080 seconds.
+  path: Assets/Chris' Lab Space Folder/Prefabs
+  artifactKey: Guid(0603f629cce67420d97a04b2e1a005bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Prefabs using Guid(0603f629cce67420d97a04b2e1a005bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39363917f80f7b8b6aeba3b190e1e9') in 0.006401 seconds
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Chris' Lab Space Folder/Prefabs
+  artifactKey: Guid(0603f629cce67420d97a04b2e1a005bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Prefabs using Guid(0603f629cce67420d97a04b2e1a005bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39363917f80f7b8b6aeba3b190e1e9') in 0.002323 seconds
+  Import took 0.007227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264308 seconds.
+  path: Assets/Chris' Lab Space Folder/Scripts
+  artifactKey: Guid(b44ddf695fcd64387aa76b66c6080add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Scripts using Guid(b44ddf695fcd64387aa76b66c6080add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a613574a3cfe24b34e8781464401a') in 0.007243 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.832652 seconds.
+  path: Assets/Chris' Lab Space Folder/Scripts/eFieldController.cs
+  artifactKey: Guid(dbf8df896754c41739b5ff33d578916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Scripts/eFieldController.cs using Guid(dbf8df896754c41739b5ff33d578916b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141fb743ac67a623867a00271170a66') in 0.015610 seconds
+  Import took 0.020601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139495 seconds.
+  path: Assets/Chris' Lab Space Folder/Scripts/ChargeController.cs
+  artifactKey: Guid(9eadc2ba853da47fe9b7c542dca5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Scripts/ChargeController.cs using Guid(9eadc2ba853da47fe9b7c542dca5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd533bfabef297dd92973d1bed0e63b') in 0.007303 seconds
+  Import took 0.012353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Chris' Lab Space Folder/Scripts/ChargeController.cs
+  artifactKey: Guid(9eadc2ba853da47fe9b7c542dca5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chris' Lab Space Folder/Scripts/ChargeController.cs using Guid(9eadc2ba853da47fe9b7c542dca5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd533bfabef297dd92973d1bed0e63b') in 0.002210 seconds
+  Import took 0.006791 seconds .
+>>>>>>> Stashed changes
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+Registered in 0.004294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+>>>>>>> Stashed changes
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\dgbal\Documents\GitHub\pirt-sim-world\PIRT_simulation_lab\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Completed reload, in  0.730 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -194,5 +520,19 @@ Received Import Request.
   artifactKey: Guid(f70ea947a998a60438b5456fc2b19260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/NewScript.cs using Guid(f70ea947a998a60438b5456fc2b19260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac6088dc0fd705a1a9072594b013bf2') in 0.003353 seconds
   Import took 0.006197 seconds .
+=======
+- Completed reload, in  0.799 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3015 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 144.3 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3531.
+Total: 4.640300 ms (FindLiveObjects: 0.400000 ms CreateObjectMapping: 0.201600 ms MarkObjects: 2.607800 ms  DeleteObjects: 1.429700 ms)
+>>>>>>> Stashed changes
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
